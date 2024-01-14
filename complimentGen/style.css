@@ -1,0 +1,129 @@
+body
+{
+  background-color: #fcf0e4
+}
+div.main {
+  width: 900px;
+  margin: auto;
+}
+div.image {
+  width: 500px;
+  margin: auto;
+}
+.main
+{
+    clear: none;
+    text-align: center;
+    width: 35%;
+    float: right;
+    padding-right: 5%;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Schoolbell', cursive;
+    font-size: 4em;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+p{
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Gaegu', sans-serif;
+  font-family: 'Mali', cursive;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Schoolbell', cursive;
+  font-family: 'The Girl Next Door', cursive;
+  font-size: 3em;
+  padding-bottom: 80px;
+  padding-top: 60px;
+}
+
+#complementArea {
+    height: 30px;
+  }
+
+.image
+{
+    padding-top: 150px;
+    padding-left: 90px;
+    background-size: cover;
+    width:55%;
+    height: auto;
+    float: left;
+}
+
+.compbtn {
+    width: 500px;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Schoolbell', cursive;
+    font-size: 40px;
+    display: inline-block;
+    height: 78px;
+    position: relative;
+    background: #efe5d5;
+    color: #000000;
+    text-align: center;
+    padding: 1em 2em; 
+    margin: 2em auto 3em; 
+    background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  align-items: center;
+}
+
+.compbtn:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: inline-block;
+  height: 78px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.compbtn:hover:after {
+  transform: translate(0, 0);
+}
+
+.compbtn:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.compbtn:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .compbtn {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /
+  }
+}
